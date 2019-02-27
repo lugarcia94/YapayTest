@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="header__content">
                 <h1>
                     <a href="https://www.yapay.com.br">
-                        <img src={logo} alt="Yapay"/>
+                        {/* <img src={logo} alt="Yapay"/> */}
                     </a>
                 </h1>
             </div>

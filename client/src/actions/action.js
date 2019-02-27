@@ -14,8 +14,11 @@ export const apiAction  =  () => {
 export const DeleteItem = (id) => {
     return  dispatch => {
         dispatch(itemRemove(true))
-        api.delete('/users/' + id).then(() => dispatch(itemRemove(false)))
-        dispatch( () => apiAction())
+        api.delete('/users/' + id).then(() => {
+            dispatch(itemRemove(false))
+            dispatch(apiAction())
+        })
+        
     }
 }
 
@@ -26,15 +29,19 @@ export function itemRemove(bool) {
     } 
 }
 
-export const AddItem = (id) => {
+export const AddItem = (user) => {
+    console.log(user)
     return dispatch => {
-        api.post('/users/' + id).then(() => dispatch(itemAdd(false)))
+        api.post('/users/', user).then(() => {
+            dispatch(itemAdd(false))
+            dispatch(apiAction())
+        })
     }
 }
   
 export function itemAdd(bool) {     
     return {         
         type: 'ADICIONA_ITEM',         
-        isRemoved: bool     
+        isAdd: bool     
     } 
 }
