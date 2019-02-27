@@ -15,4 +15,8 @@ $( document ).ready(function() {
     });
 
     });
+
+    jQuery('.cadastro__content .header__cadastro').on('click', function(){
+        jQuery(this).parent().toggleClass('active__item');
+    })
 });

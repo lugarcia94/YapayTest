@@ -20,3 +20,14 @@ export function removeItem (state = false, action) {
             return state;
     }
 }
+
+export function adicionaItem (state = false, action) {
+    
+    switch(action.type) {         
+        case 'ADICIONA_ITEM':           
+            return action.isAdd;
+            
+        default: 
+            return state;     
+    } 
+}

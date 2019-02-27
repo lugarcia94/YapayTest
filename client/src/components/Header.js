@@ -6,7 +6,9 @@ class Header extends Component {
         return (
             <div className="header__content">
                 <h1>
-                    <a href="https://www.yapay.com.br"><img src={logo} alt="Yapay"/></a>
+                    <a href="https://www.yapay.com.br">
+                        <img src={logo} alt="Yapay"/>
+                    </a>
                 </h1>
             </div>
         );

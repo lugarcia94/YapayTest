@@ -19,6 +19,7 @@ class ListUsers extends Component {
     render() { 
         return (
             <div className="content__users-list"> 
+                
                 <ul className="users__list"> 
                     {this.props.listDb.retornoDb.map( item => (                         
                         <li className="users__list-item" key={item.id}>
@@ -39,6 +40,6 @@ class ListUsers extends Component {
     }
 }
 
-const mapStateToProps = state => ({listDb:state.retornoDb, isRemoved:state.removeItem})
+const mapStateToProps = state => ({listDb:state.retornoDb, isRemoved:state.removeItem, isAdd:state.AddItem})
 const mapDispatchToProps = dispatch => bindActionCreators({apiAction, DeleteItem}, dispatch) 
 export default connect(mapStateToProps, mapDispatchToProps)(ListUsers)
