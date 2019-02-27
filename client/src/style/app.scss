@@ -312,6 +312,9 @@ img {
   flex-wrap: wrap;
   margin: 30px 0;
 
+  @media(max-width: 767px) {
+    padding: 0 15px;
+  }
 
   button {
     width: 92%;
@@ -333,6 +336,10 @@ img {
     text-transform: uppercase; 
     width: 40%;
     margin-bottom: 10px;
+
+    @media(max-width: 767px) {
+      width: 100%;
+    }
 
     &:nth-child(5) {
       margin: 0 auto;
