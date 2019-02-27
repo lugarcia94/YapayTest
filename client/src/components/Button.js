@@ -18,7 +18,7 @@ class Button extends Component {
     handleSubmit = event => {
         event.preventDefault();
         const { user } = this.state;
-        this.props.AddItem(user);
+        this.props.AddItem(user); 
     }
   
     handleName = (evt) =>{

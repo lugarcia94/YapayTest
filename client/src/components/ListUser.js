@@ -11,9 +11,7 @@ class ListUsers extends Component {
     }
 
     removeItem = (id) => {
-        // console.log(this.props);
         this.props.DeleteItem(id);
-        
     }
 
     render() { 
