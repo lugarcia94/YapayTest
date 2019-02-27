@@ -6,3 +6,4 @@ Para iniciar a aplicação basta acessar o diretório server e executar o seguin
 Em seguida, acessar a pasta cliente
     npm install => Instala os pacotes
     npm start => Inicia a aplicação
+
