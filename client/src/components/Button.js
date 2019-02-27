@@ -14,11 +14,21 @@ class Button extends Component {
             avatar: ''
         }
     }
-
+    
     handleSubmit = event => {
         event.preventDefault();
         const { user } = this.state;
         this.props.AddItem(user); 
+
+        const userClear = {
+            name: '',
+            username: '',
+            email: '',
+            phone: '',
+            avatar: ''
+        }
+
+        this.setState(userClear)
     }
   
     handleName = (evt) =>{
