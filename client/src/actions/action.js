@@ -1,4 +1,5 @@
 import api from '../services/api';
+import { toastr } from 'react-redux-toastr'
 
 export const apiAction  =  () => {  
     
@@ -30,12 +31,13 @@ export function itemRemove(bool) {
 }
 
 export const AddItem = (user) => {
-    console.log(user)
     return dispatch => {
         api.post('/users/', user).then(() => {
             dispatch(itemAdd(false))
             dispatch(apiAction())
-        })
+        }).then(response => {
+            toastr.success('Sucesso!', 'Cadastrado com sucesso!')
+        });
     }
 }
   

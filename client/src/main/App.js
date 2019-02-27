@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import ListUsers from '../components/ListUser'
 import Search from '../components/Search'
 import Button from '../components/Button'
+import Notification from '../notification/return'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Button/>
           <Search/>
           <ListUsers/> 
+          <Notification/>
       </div>
     );
   }

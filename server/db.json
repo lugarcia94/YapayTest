@@ -1,68 +1,52 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Kurtis Weissnat",
-      "username": "Weissnat",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "(21) 4444-1122",
-      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Nicholas",
-      "email": "Sherwood@rosamond.me",
-      "phone": "(12) 3121-4151",
-      "avatar": "https://randomuser.me/api/portraits/men/85.jpg"
-    },
-    {
       "name": "LUCAS GARCIA COSTA",
-      "username": "auaha\\isabela",
+      "username": "lugarcia94",
       "email": "lucasgaarciaa@gmail.com",
       "phone": "14996364096",
       "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
-      "id": 9
+      "id": 1
+    },
+    {
+      "name": "LUCAS GARCIA COSTA",
+      "username": "lugarcia94",
+      "email": "lucasgaarciaa@gmail.com",
+      "phone": "14996364096",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "id": 14
+    },
+    {
+      "name": "LUCAS GARCIA COSTA",
+      "username": "lugarcia94",
+      "email": "lucasgaarciaa@gmail.com",
+      "phone": "14996364096",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "id": 15
+    },
+    {
+      "name": "LUCAS GARCIA COSTA",
+      "username": "lugarcia94",
+      "email": "lucasgaarciaa@gmail.com",
+      "phone": "14996364096",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "id": 16
+    },
+    {
+      "name": "LUCAS GARCIA COSTA",
+      "username": "lugarcia94",
+      "email": "lucasgaarciaa@gmail.com",
+      "phone": "14996364096",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "id": 19
+    },
+    {
+      "name": "LUCAS GARCIA COSTA",
+      "username": "lugarcia94",
+      "email": "lucasgaarciaa@gmail.com",
+      "phone": "14996364096",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "id": 20
     }
   ]
 }
